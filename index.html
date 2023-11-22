@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation-bar</title> <!--TITLE-->
+    <link rel="stylesheet" href="style.css"> <!--CSS-->
+</head>
+
+<body>
+    <div class="wrapper"> <!--MAIN CONTAINER-->
+        <div class="item menu" title="menu"> <!--ITEM MENU-->
+          <div class="linee linee1"></div>
+          <div class="linee linee2"></div>
+          <div class="linee linee3"></div>
+        </div>
+
+        <div class="item gallery" title="gallery"> <!--ITEM GALLERY-->
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
+          <div class="dot dot4"></div>
+          <div class="dot dot5"></div>
+          <div class="dot dot6"></div>
+        </div>
+
+        <button class="item add"> 
+          <div class="circle" title="search"> <!--ITEM SEARCH-->
+            <div class="close">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+            </div>
+          </div>
+          <input type="search" placeholder="do your search" class="search"/>
+        </button>
+  
+        <div class="nav-items items1" title="home"> <!--MENU ITEMS-->
+          <i class="fas fa-home"></i>
+          <iconify-icon icon="ant-design:home-outlined"></iconify-icon>
+        </div>
+        <div class="nav-items items2" title="images">
+          <i class="fas fa-camera"></i>
+          <iconify-icon icon="ant-design:camera-outlined"></iconify-icon>
+        </div>
+        <div class="nav-items items3" title="files">
+          <i class="fas fa-folder"></i>
+          <iconify-icon icon="ant-design:folder-outlined"></iconify-icon>
+        </div>
+        <div class="nav-items items4" title="favorites">
+          <i class="fas fa-heart"></i>
+          <iconify-icon icon="ant-design:heart-outlined"></iconify-icon>
+        </div>
+
+        <div class="box"> <!--GALLERY BOX-->
+          <div class="box-line box-line1"></div>
+          <div class="box-line box-line2"></div>
+          <div class="box-line box-line3"></div>
+          <div class="box-line box-line4"></div>
+        </div>
+    </div>
+  
+    <div class="effect"></div> <!--SEARCH EFFECT-->
+
+    <footer> <!--ITEM TWITTER-->
+        <a href="https://twitter.com/drk7knght" target="_blank" title="twitter">
+            <i class="fab fa-twitter"></i>
+            <iconify-icon icon="pajamas:twitter"></iconify-icon>
+        </a>
+    </footer>
+
+    <script src="script.js"></script> <!--JS-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> <!--ICONIFY-->
+</body>
+</html>
